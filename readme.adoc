@@ -1,0 +1,21 @@
+﻿= Barbershop
+:imagedir: imagedir/
+
+System's Programming Final Project.
+
+This is a virtual barbershop that uses Message Queues, Threads, and Semaphores for IPC. It uses an MVC architecture with GTK3. 
+
+image::imagedir/demo.gif[]
+
+It was written in pure C with much love and dedication. I throughly enjoyed understanding the internals of OSs and memory.
+
+== HowTo
+
+.To spawn GUI
+[source, bash]
+make
+
+.To spawn controller
+[source, bash]
+make controller
+./controller
